@@ -4,6 +4,9 @@ html, body {
 
 body{
   margin: 0;
+  background-image: url("hanoi.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #board{
@@ -15,43 +18,52 @@ body{
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-around;
 
 }
-
-#left{
-  width: auto;
-  border: 1px solid blue;
-  flex-direction: column;
-  /*flex-grow: 1;*/
-}
-
-#middle{
-  width: auto;
-  border: 1px solid blue;
-  flex-direction: column;
-  /*flex-grow: 1;*/
-}
-
-#right{
-  width: auto;
-  border: 1px solid blue;
-  flex-direction: column;
-  /*flex-grow: 1;*/
+ol{
+  width:auto;
   list-style: none;
+  flex-direction: column;
+  display: flex;
+  /*height:200px;*/
+  /*width: 0px;*/
+  /*border-radius: 50px;*/
+  /*background-color: rgba(66, 68, 65, 0.38);*/
+  align-items: center;
 }
 
 .rings{
-  background-color: tomato;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+}
+
+#one{
+  background-color: rgba(205, 33, 33, 0.59);
+  border-radius: 35px;
   padding: 5px;
-  width: 20px;
-  height: 20px;
-  margin: 10px;
-  line-height: 20px;
-  color: white;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: center;
-/*border: 10px, solid, black;*/
+  width: 100px;
+  height: 40px;
+  /*margin: 10px;*/
+}
+
+#two{
+  background-color: rgba(255, 255, 64, 0.6);
+  border-radius: 35px;
+  padding: 5px;
+  width: 150px;
+  height: 40px;
+  /*margin: 10px;*/
+
+}
+
+#three{
+  background-color: rgba(205, 33, 33, 0.59);
+  border-radius: 35px;
+  padding: 5px;
+  width: 200px;
+  height: 40px;
+  /*margin: 10px;*/
+
 }
