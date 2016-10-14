@@ -1,0 +1,33 @@
+#board{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  height: 80%;
+  width: 70%;
+  border: 10px, solid, black;
+
+}
+
+#left{
+  /*flex-direction: column;*/
+  border: 10px, solid, black;
+  /*list-style: none;*/
+  background-color: black;
+
+}
+
+#middle{
+  /*flex-direction: column;*/
+  border: 10px, solid, black;
+
+}
+
+#right{
+  /*flex-direction: column;*/
+  border: 10px, solid, black;
+
+}
+
+.rings{
+border: 10px, solid, black;
+}
