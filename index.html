@@ -9,17 +9,25 @@
   <script src="script.js"></script>
   <title>Tower of Hanoi</title>
 </head>
-<header></header>
+<header>
+  <h1>Tower of Hanoi</h1>
+  <p>rules</p>
+</header>
 <body>
-  <main id="board">
-    <ol id="left">
-      <li class="rings" id="one" value='1'></li>
-      <li class="rings" id="two" value='2'></li>
-      <li class="rings" id="three" value='3'></li>
-    </ol>
-    <ol id="middle"></ol>
-    <ol id="right"></ol>
+  <main class="board">
+    <div class="columns select" id="left">
+      <div class="rings" id="one" value='1'>1</div>
+      <div class="rings" id="two" value='2'>2</div>
+      <div class="rings" id="three" value='3'>3</div>
+    </div>
+    <div class="columns select" id="middle"></div>
+    <div class="columns select" id="right"></div>
   </main>
+  <!-- <div class="board">
+    <div class="base"></div>
+    <div class="base"></div>
+    <div class="base"></div>
+  </div> -->
   <footer></footer>
 </body>
 </html>
