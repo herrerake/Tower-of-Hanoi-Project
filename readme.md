@@ -17,7 +17,8 @@ I have in mind how the operations of the game will be like. The user needs to be
 Silver Goals
 --Deciding where the user will be clicking in order to take the actions to play the game.
 --What will the user see when a ring is clicked.
---What will the user see when a destination is clicked. 
+--What will the user see when a destination is clicked.
+--Make the pegs so the user can see where to click.
 
 
 
@@ -29,3 +30,5 @@ Silver Goals
 Gold Goals
 --Thinking about having an opening sequence to the game where the user clicks start and the pegs and tower phase in.
 --I want to display in the background a high quality picture of the city of Hanoi.
+--A move counter where the user can see how many moves it took to complete.
+--A prompt that will notify the user when the game has been won. 

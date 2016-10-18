@@ -5,23 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Andika" rel="stylesheet">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
   <script src="script.js"></script>
   <title>Tower of Hanoi</title>
 </head>
 <header>
   <h1>Tower of Hanoi</h1>
-  <p>rules</p>
+  <h3>Rules</h3>
+  <p>Only one disk can be moved at a time.
+      <br>No disk may be placed on top of a smaller disk.
+      <br>Stack the rings on the right column.
+
+  </p>
 </header>
 <body>
   <main class="board">
     <div class="columns select" id="left">
-      <div class="rings" id="one" value='1'>1</div>
-      <div class="rings" id="two" value='2'>2</div>
-      <div class="rings" id="three" value='3'>3</div>
+      <div class="rings" id="one" value='1'></div>
+      <div class="rings" id="two" value='2'></div>
+      <div class="rings" id="three" value='3'></div>
+      <div class="rings" id="four" value='4'></div>
+      <div class="rings" id="five" value='5'></div>
+      <div class="rings" id="shadow" value='99'></div>
     </div>
-    <div class="columns select" id="middle"></div>
-    <div class="columns select" id="right"></div>
+
+    <div class="columns select" id="middle">
+      <div class="rings" id="shadow" value='99'></div>
+    </div>
+
+    <div class="columns select" id="right">
+      <div class="rings" id="shadow" value='99'></div>
+    </div>
   </main>
   <!-- <div class="board">
     <div class="base"></div>
