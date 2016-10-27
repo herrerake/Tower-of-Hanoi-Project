@@ -59,5 +59,6 @@ $(document).ready(function(){
       }
     }
     //I'd add a checkWin each time a legal move is made, then your game would be complete!
+    // This might be implemented as follows: select all the discs within one of the three containers, then if the length is the number of discs in the game, you win. You woudln't have to compare their sizes, since you already account for that when you are determining if a move is legal or not. If the move can be made, then it permits the div to be appended to another column. If there are 5 divs in the column, then that's a win. The only catch is that it should be only on column 2 or 3 that'd you should check for a win, since you start on column 1.
   })
 });
