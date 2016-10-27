@@ -22,11 +22,13 @@
 <body>
   <main class="board">
     <div class="columns select" id="left">
+      <!-- smart idea adding a value propety here; however since divs do not typicall have a value property by default, you'd have to use .attr() instead of .val() example: $("#one").attr("value") -->
       <div class="rings" id="one" value='1'></div>
       <div class="rings" id="two" value='2'></div>
       <div class="rings" id="three" value='3'></div>
       <div class="rings" id="four" value='4'></div>
       <div class="rings" id="five" value='5'></div>
+      <!-- I tested commenting the line below out and I don't think you actually need this here!  -->
       <div class="rings" id="shadow" value='99'></div>
     </div>
 
